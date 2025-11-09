@@ -1,4 +1,10 @@
+#lib imports
 from fastapi import FastAPI
+
+#function imports
+from player import *
+from rules import *
+
 
 app = FastAPI()
 
