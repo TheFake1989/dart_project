@@ -1,5 +1,5 @@
 #function import
-from player import *
+from models.player import *
 
 def around_the_world(player):
     player.score = 0

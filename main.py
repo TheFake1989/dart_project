@@ -2,8 +2,8 @@
 from fastapi import FastAPI
 
 #function imports
-from player import *
-from rules import *
+from models.player import *
+from models.rules import *
 
 
 app = FastAPI()
