@@ -4,7 +4,7 @@ from fastapi import FastAPI
 #function imports
 from models.player import *
 from models.rules import *
-from models.kast import *
+from models.throw_logic import *
 
 
 
@@ -18,7 +18,7 @@ def main ():
     shoot_down(players, 40)
     print(jonas.score)
     print(jonas.game)
-    jonas.record_round((10, 1), (15, 2), (0, 3))
+    jonas.record_round((10, 1), (16, 2), (0, 3))
 
 
 main()

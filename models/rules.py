@@ -6,6 +6,7 @@ def around_the_world(players):
         player.score = 1
         player.game = "around_the_world"
         player.throws = []
+        player.winner = False
 
 
 def shoot_down(players, shoot_down_target):
@@ -13,3 +14,4 @@ def shoot_down(players, shoot_down_target):
         player.score = shoot_down_target
         player.game = "shoot_down"
         player.throws = []
+        player.winner = False
