@@ -54,3 +54,20 @@ class Player():
                     print("Bust")
                     print(f"Reset to {self.score}")
                 return
+        
+
+        if  self.game == "around_the_world":
+            dart_list = [dart_1[0], dart_2[0], dart_3[0]]
+            
+            if self.score in dart_list:
+                dart_list.remove(self.score)
+                self.score += 1
+            
+            if self.score in dart_list:
+                dart_list.remove(self.score)
+                self.score += 1
+            
+            if self.score in dart_list:
+                dart_list.remove(self.score)
+                self.score += 1
+            
